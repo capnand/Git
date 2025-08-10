@@ -1,0 +1,8 @@
+🧠 Kubernetes Service of Type: ClusterIP (Default)
+A Kubernetes Service is an abstraction that defines a logical set of Pods and a stable network endpoint to access them.
+
+🔹NodePort
+Scope: External access
+Access: Exposes service on a static port on each Node’s IP
+Range: Default 30000–32767
+Use Case: Quick way to access a service from outside using <NodeIP>:<NodePort>
